@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+body >.data{
+    background-color: #04a8f4;
+    height: 60%;
+
+}
+
+.data > .location{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:flex-end;
+    
+}
+.data >.container>.adress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto 0 auto;
+    margin-bottom: 35px;
+    gap: 18px;
+}
+.data >.container>.adress > i{
+    font-size: 48px;
+    
+}
+.data >.container>.adress > .tempirature {
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+.data >.container>.adress > .city{   font-size: 28px;
+    font-weight: 700;
+   
+}
+
+.data >.adress >.description{
+    font-size: 16px;
+}
+.data >.container>.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.data >.container> .weather > div {
+     background-color: #fff;
+     padding: 12px 16px;
+    color: #04a8f4;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.container{padding: 24px 28px;
+
+}
+
+.forcast{
+    
+    background-color: aliceblue;
+    height: 40%;
+    padding: 32px;
+    color: #333;
+}
+.forcast >.title{
+    text-align: center;
+    font-weight: 700;
+    font-size:28px ;
+    margin-bottom: 48px;
+
+}
+.forcast >.week_days{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+.forcast >.week_days>.day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.forcast >.week_days>.day>.data{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.forcast >.week_days>.day>.data>i{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    margin-bottom:20px ;
+}
+.forcast >.week_days> .day> .data> .name{
+    font-size: 22px;
+    font-weight: 700;
+}
+.forcast >.week_days>.day>.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.forcast >.week_days>.day>.temp>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.forcast >.week_days>.day>.temp>.max>i{
+    color: #0408f4;
+}
+.forcast >.week_days>.day>.temp>.min>i{ color: #f90000;
+}
